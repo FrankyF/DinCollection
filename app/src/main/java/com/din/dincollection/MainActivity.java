@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
         int aaass = 232;
 
         String c="devdin";
+        String d ="dev";
     }
 }
