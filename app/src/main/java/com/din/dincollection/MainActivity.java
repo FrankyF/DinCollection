@@ -10,14 +10,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String a ="master2";
-       String b = "dev";
-
-
-
-        int aaass = 232;
-
-        String c="devdin";
-        String d ="dev";
     }
 }
