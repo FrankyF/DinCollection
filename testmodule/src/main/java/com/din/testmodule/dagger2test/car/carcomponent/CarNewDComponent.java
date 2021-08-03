@@ -1,8 +1,8 @@
-package com.din.testmodule.dagger2test.component;
+package com.din.testmodule.dagger2test.car.carcomponent;
 
 import com.din.testmodule.dagger2test.annotation.CarScope;
 import com.din.testmodule.dagger2test.car.CarNewD;
-import com.din.testmodule.dagger2test.module.CarNewDModule;
+import com.din.testmodule.dagger2test.car.carmodule.CarNewDModule;
 
 import dagger.Component;
 @CarScope

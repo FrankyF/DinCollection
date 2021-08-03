@@ -1,8 +1,6 @@
 package com.din.testmodule;
 
-import org.junit.Test;
-
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import com.din.testmodule.dagger2test.car.Car0;
 import com.din.testmodule.dagger2test.car.Car1;
@@ -11,6 +9,8 @@ import com.din.testmodule.dagger2test.car.CarNewC;
 import com.din.testmodule.dagger2test.car.CarNewD;
 import com.din.testmodule.dagger2test.car.engine.Engine;
 import com.din.testmodule.dagger2test.car.engine.Wheel;
+
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,8 +32,6 @@ public class ExampleUnitTest {
         Car0 car = new Car0();
         car.start();
     }
-
-
     @Test
     public void test1() {
         Engine engine = new Engine();
@@ -66,4 +64,13 @@ public class ExampleUnitTest {
         System.out.println(car.getEngineB1().hashCode());
         System.out.println(car.getEngineB2().hashCode());
     }
+
+    //=========================================================================
+
+    @Test
+    public void testPerson(){
+
+    }
+
+
 }

@@ -1,8 +1,8 @@
 package com.din.testmodule.dagger2test.car;
 
 import com.din.testmodule.dagger2test.base.BaseCar;
+import com.din.testmodule.dagger2test.car.carcomponent.DaggerCarNewAComponent;
 import com.din.testmodule.dagger2test.car.engine.Engine;
-import com.din.testmodule.dagger2test.component.DaggerCarNewAComponent;
 
 import javax.inject.Inject;
 

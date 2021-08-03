@@ -1,4 +1,4 @@
-package com.din.testmodule.dagger2test.module;
+package com.din.testmodule.dagger2test.car.carmodule;
 
 import com.din.testmodule.dagger2test.car.engine.EngineB;
 

@@ -1,7 +1,7 @@
-package com.din.testmodule.dagger2test.component;
+package com.din.testmodule.dagger2test.car.carcomponent;
 
 import com.din.testmodule.dagger2test.car.CarNewB;
-import com.din.testmodule.dagger2test.module.CarNewBModule;
+import com.din.testmodule.dagger2test.car.carmodule.CarNewBModule;
 
 import dagger.Component;
 

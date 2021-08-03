@@ -1,3 +1,4 @@
 rootProject.name = "DinCollection"
 include ':app'
 include ':testmodule'
+include ':basedinlibrary'

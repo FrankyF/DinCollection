@@ -1,11 +1,11 @@
 package com.din.testmodule.dagger2test.car;
 
-import com.din.testmodule.dagger2test.base.BaseCar;
-import com.din.testmodule.dagger2test.car.engine.EngineB;
 import com.din.testmodule.dagger2test.annotation.QualifierA;
 import com.din.testmodule.dagger2test.annotation.QualifierB;
-import com.din.testmodule.dagger2test.component.DaggerCarNewCComponent;
-import com.din.testmodule.dagger2test.module.CarNewCModule;
+import com.din.testmodule.dagger2test.base.BaseCar;
+import com.din.testmodule.dagger2test.car.carcomponent.DaggerCarNewCComponent;
+import com.din.testmodule.dagger2test.car.carmodule.CarNewCModule;
+import com.din.testmodule.dagger2test.car.engine.EngineB;
 
 import javax.inject.Inject;
 
